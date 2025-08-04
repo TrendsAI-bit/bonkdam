@@ -51,6 +51,7 @@ body {
     min-height: 100vh;
     padding-right: 20px;
     max-width: calc(100vw - 300px);
+    width: calc(100vw - 300px);
 }
 
 /* Pixel Logo */
@@ -67,6 +68,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nav-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
 }
 
 .bonk-head {
@@ -294,6 +302,11 @@ section {
     background: linear-gradient(135deg, var(--dark-bg) 0%, var(--medium-bg) 100%);
     position: relative;
     overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
 }
 
 .hero-content {
@@ -1015,15 +1028,13 @@ section {
     margin-bottom: 2rem;
 }
 
-.loading-mech {
-    width: 80px;
-    height: 80px;
-    background: var(--chrome);
-    border: 2px solid var(--primary-crimson);
+.loading-logo {
+    width: 120px;
+    height: 120px;
     margin: 0 auto;
-    position: relative;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    object-fit: contain;
     animation: pixel-spin 2s linear infinite;
+    border-radius: 8px;
 }
 
 @keyframes pixel-spin {
