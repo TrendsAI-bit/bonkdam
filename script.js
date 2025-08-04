@@ -441,7 +441,32 @@ window.addEventListener('load', function() {
     console.log('📊 Performance metrics available');
 });
 
+// Copy contract address function
+function copyContractAddress() {
+    const contractAddress = '8aE4XUo3ur7u9ruGzmhiakHjSM61Fjt98E8DfNfzbonk';
+    
+    navigator.clipboard.writeText(contractAddress).then(() => {
+        // Show success feedback
+        const copyBtn = document.querySelector('.copy-btn');
+        const originalText = copyBtn.innerHTML;
+        copyBtn.innerHTML = '<i class="fas fa-check"></i>';
+        copyBtn.style.background = 'var(--chrome)';
+        copyBtn.style.color = 'var(--black)';
+        
+        setTimeout(() => {
+            copyBtn.innerHTML = originalText;
+            copyBtn.style.background = 'var(--primary-crimson)';
+            copyBtn.style.color = 'var(--text-primary)';
+        }, 2000);
+        
+        console.log('✅ Contract address copied to clipboard!');
+    }).catch(err => {
+        console.error('❌ Failed to copy contract address:', err);
+    });
+}
+
 // Export functions for global access
 window.scrollToSection = scrollToSection;
 window.connectWallet = connectWallet;
-window.closeWalletModal = closeWalletModal; 
+window.closeWalletModal = closeWalletModal;
+window.copyContractAddress = copyContractAddress; 

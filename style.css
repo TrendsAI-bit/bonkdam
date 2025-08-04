@@ -62,8 +62,8 @@ body {
 
 .logo-symbol {
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto 1rem;
     display: flex;
     align-items: center;
@@ -405,6 +405,61 @@ section {
     font-size: 0.9rem;
     color: var(--text-muted);
     font-family: 'Orbitron', monospace;
+}
+
+.contract-info {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: rgba(139, 0, 0, 0.1);
+    border: 1px solid var(--primary-crimson);
+    border-radius: 8px;
+}
+
+.contract-address {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.9rem;
+}
+
+.contract-address i {
+    color: var(--chrome);
+    font-size: 1rem;
+}
+
+.contract-label {
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.contract-value {
+    color: var(--chrome);
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid var(--chrome);
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+.copy-btn {
+    background: var(--primary-crimson);
+    border: none;
+    color: var(--text-primary);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+}
+
+.copy-btn:hover {
+    background: var(--deep-crimson);
+    transform: translateY(-1px);
+    box-shadow: var(--glow-shadow);
 }
 
 .hero-buttons {
