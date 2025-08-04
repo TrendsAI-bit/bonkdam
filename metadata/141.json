@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0141",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Rare",
+  "image": "https://your-domain.com/images/141.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Zaku"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Tactical"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "Bonk Crest"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "LOL"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Meme Drive Core"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Banner"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bonk Battlefield"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/141.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

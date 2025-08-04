@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0894",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Common",
+  "image": "https://your-domain.com/images/894.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Zaku"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Cyber Ronin"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "MemeSigil"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "LOL"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Meme Drive Core"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Banner"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bonk Battlefield"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/894.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

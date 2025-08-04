@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0006",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Epic",
+  "image": "https://your-domain.com/images/6.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Zaku"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Bonkium Alloy"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "MemeSigil"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Furious"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Meme Drive Core"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Katana"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bonk Battlefield"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/6.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

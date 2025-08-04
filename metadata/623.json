@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0623",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Common",
+  "image": "https://your-domain.com/images/623.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Open Visor"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Gundam Suit"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "MemeSigil"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Glitched"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Meme Drive Core"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Banner"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Hangar"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/623.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

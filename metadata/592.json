@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0592",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Common",
+  "image": "https://your-domain.com/images/592.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Open Visor"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Cyber Ronin"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "MemeSigil"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Furious"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Bonk Rifle"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Antenna"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Hangar"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/592.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

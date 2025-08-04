@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0404",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Uncommon",
+  "image": "https://your-domain.com/images/404.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Custom"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Gundam Suit"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "MemeSigil"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "LOL"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Meme Drive Core"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Katana"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Upload Core"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/404.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

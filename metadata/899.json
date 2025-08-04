@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0899",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Common",
+  "image": "https://your-domain.com/images/899.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Zaku"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Gundam Suit"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "Bonk Crest"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Blank"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Energy Blade"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Katana"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Upload Core"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/899.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

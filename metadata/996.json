@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0996",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Common",
+  "image": "https://your-domain.com/images/996.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Open Visor"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Bonkium Alloy"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "Bonk Crest"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "LOL"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Dual Missiles"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Antenna"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Mecha Forge"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/996.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

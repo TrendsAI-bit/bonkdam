@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0092",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Rare",
+  "image": "https://your-domain.com/images/92.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "RX"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Cyber Ronin"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "MemeSigil"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Glitched"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Dual Missiles"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Banner"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Hangar"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/92.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

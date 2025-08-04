@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0312",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Uncommon",
+  "image": "https://your-domain.com/images/312.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Custom"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Tactical"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "Unknown Script"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Glitched"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Dual Missiles"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Banner"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Upload Core"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/312.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

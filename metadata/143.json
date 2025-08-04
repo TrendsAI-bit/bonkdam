@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0143",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Rare",
+  "image": "https://your-domain.com/images/143.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "RX"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Tactical"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "MemeSigil"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Furious"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Dual Missiles"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Jetpack"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bonk Battlefield"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/143.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

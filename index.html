@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonkdam Shōtaigun (ボンクダム小隊軍) - Pixel Platoon of the Meme Mechs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Solana Web3.js -->
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+</head>
+<body>
+    <!-- Left Side Navigation -->
+    <nav class="side-nav">
+        <div class="nav-header">
+            <div class="pixel-logo">
+                <div class="logo-symbol">
+                    <div class="bonk-head"></div>
+                    <div class="military-wings"></div>
+                </div>
+                <h2 class="nav-title">Bonkdam Shōtaigun</h2>
+                <p class="nav-subtitle">ボンクダム小隊軍</p>
+                <p class="nav-motto">Pixel Platoon of the Meme Mechs</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active">司令部</a></li>
+            <li><a href="#gallery" class="nav-link">部隊展示</a></li>
+            <li><a href="#collection" class="nav-link">戦略資料</a></li>
+            <li><a href="#about" class="nav-link">部隊情報</a></li>
+        </ul>
+        <div class="nav-footer">
+            <div class="social-links">
+                <a href="#" target="_blank" class="social-link"><i class="fab fa-twitter"></i> 司令部</a>
+                <a href="#" target="_blank" class="social-link"><i class="fas fa-users"></i> 部隊</a>
+            </div>
+            <div class="wallet-connect">
+                <button id="wallet-connect-btn" class="wallet-btn">
+                    <i class="fas fa-wallet"></i>
+                    <span>接続</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="creator-info">
+                        <i class="fas fa-crown"></i>
+                        <span>Elite NFT Division</span>
+                        <div class="tensor-verified">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" fill="#FFD700"/>
+                            </svg>
+                            <span>Verified Division</span>
+                        </div>
+                    </div>
+                    
+                    <h1 class="hero-title glitch-text">Bonkdam Shōtaigun</h1>
+                    <p class="hero-subtitle">ボンクダム小隊軍</p>
+                    <p class="hero-motto">Pixel Platoon of the Meme Mechs</p>
+                    <p class="hero-motto-en">1000 elite Bonk-droids marching in pixel-perfect precision</p>
+                    
+                    <!-- Pixelated Military Elements -->
+                    <div class="military-elements">
+                        <div class="pixel-mech"></div>
+                        <div class="pixel-flag"></div>
+                        <div class="pixel-medal"></div>
+                        <div class="pixel-badge"></div>
+                    </div>
+                    
+                    <div class="collection-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1000</span>
+                            <span class="stat-label">Elite Units</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">16</span>
+                            <span class="stat-label">Base Models</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">7</span>
+                            <span class="stat-label">Trait Categories</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#" target="_blank" class="cta-button primary">Deploy Units</a>
+                        <a href="#" target="_blank" class="cta-button secondary">Trade Market</a>
+                        <button class="cta-button secondary" onclick="scrollToSection('gallery')">View Platoon</button>
+                    </div>
+                </div>
+                
+                <div class="hero-right">
+                    <div class="featured-nft">
+                        <div class="featured-image">
+                            <img src="images/1.png" alt="Featured Unit" id="featured-nft-img">
+                            <div class="nft-overlay">
+                                <div class="nft-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-number">#0001</span>
+                                        <span class="stat-label">Unit ID</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">Ultra Rare</span>
+                                        <span class="stat-label">Rank</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">Command Core</span>
+                                        <span class="stat-label">Type</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Background Units -->
+                    <div class="background-nfts">
+                        <div class="bg-nft"><img src="images/2.png" alt="Unit"></div>
+                        <div class="bg-nft"><img src="images/3.png" alt="Unit"></div>
+                        <div class="bg-nft"><img src="images/4.png" alt="Unit"></div>
+                        <div class="bg-nft"><img src="images/5.png" alt="Unit"></div>
+                        <div class="bg-nft"><img src="images/6.png" alt="Unit"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="section-header">
+                <h2 class="section-title">部隊展示 - Platoon Display</h2>
+                <p class="section-description">Elite units ready for deployment</p>
+            </div>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Units</button>
+                <button class="filter-btn" data-filter="ultra-rare">Ultra Rare</button>
+                <button class="filter-btn" data-filter="legendary">Legendary</button>
+                <button class="filter-btn" data-filter="epic">Epic</button>
+                <button class="filter-btn" data-filter="rare">Rare</button>
+                <button class="filter-btn" data-filter="uncommon">Uncommon</button>
+                <button class="filter-btn" data-filter="common">Common</button>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-scroll">
+                    <div class="gallery-grid" id="gallery-grid">
+                        <!-- Gallery items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection Section -->
+        <section id="collection" class="collection-section">
+            <div class="section-header">
+                <div class="military-header">
+                    <div class="pixel-border"></div>
+                    <h2 class="pixel-title">戦略資料 - Strategic Data</h2>
+                    <div class="pixel-border"></div>
+                </div>
+                <p class="section-description">Comprehensive unit analysis and deployment statistics</p>
+            </div>
+            
+            <div class="collection-stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>1000</h3>
+                        <p>Total Elite Units</p>
+                        <div class="stat-breakdown">
+                            <span>Ultra Rare: 2</span>
+                            <span>Legendary: 10</span>
+                            <span>Epic: 38</span>
+                            <span>Rare: 150</span>
+                            <span>Uncommon: 300</span>
+                            <span>Common: 500</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>7</h3>
+                        <p>Trait Categories</p>
+                        <div class="stat-breakdown">
+                            <span>Helmet Type</span>
+                            <span>Armor Style</span>
+                            <span>Emblem</span>
+                            <span>Facial Expression</span>
+                            <span>Weapon</span>
+                            <span>Back Accessory</span>
+                            <span>Background</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>948</h3>
+                        <p>Unique Combinations</p>
+                        <div class="stat-breakdown">
+                            <span>94.8% Unique</span>
+                            <span>52 Duplicates</span>
+                            <span>High Rarity</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>16</h3>
+                        <p>Base Models</p>
+                        <div class="stat-breakdown">
+                            <span>Command Core</span>
+                            <span>Prototype Mecha</span>
+                            <span>Elite Strike Force</span>
+                            <span>Special Forces</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <h2 class="section-title">部隊情報 - Division Intelligence</h2>
+                <p class="section-description">Mission briefing and unit specifications</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Bonkdam Shōtaigun Division</h2>
+                    <p>An elite force of 1000 pixel-perfect Bonk-droids, each uniquely armored and dangerously expressive. This division represents the pinnacle of meme mech technology, combining retro Gundam aesthetics with the chaotic energy of the Bonk universe.</p>
+                    
+                    <p>Each unit is programmed for precision chaos, featuring distinct helmets, weapons, and color variations. From the ultra-rare Command Core units to the common frontline troopers, every member of this platoon serves a vital role in the meme warfare.</p>
+                </div>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-robot"></i>
+                        <h3>Elite Units</h3>
+                        <p>1000 uniquely designed Bonk-droids with pixel-perfect precision</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Military Grade</h3>
+                        <p>Advanced armor systems and tactical loadouts for maximum effectiveness</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-medal"></i>
+                        <h3>Rarity System</h3>
+                        <p>Six-tier rarity system from Common to Ultra Rare Command Core units</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-palette"></i>
+                        <h3>Pixel Art</h3>
+                        <p>Retro pixel art style with modern NFT technology integration</p>
+                    </div>
+                </div>
+                
+                <div class="official-links">
+                    <h3>Official Channels</h3>
+                    <div class="link-grid">
+                        <a href="#" class="official-link">
+                            <i class="fab fa-twitter"></i>
+                            <span>Command Center</span>
+                        </a>
+                        <a href="#" class="official-link">
+                            <i class="fas fa-users"></i>
+                            <span>Division Hub</span>
+                        </a>
+                        <a href="#" class="official-link">
+                            <i class="fas fa-store"></i>
+                            <span>Trade Market</span>
+                        </a>
+                        <a href="#" class="official-link">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Analytics</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">1000</span>
+                        <span class="stat-label">Total Units</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">7</span>
+                        <span class="stat-label">Trait Categories</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">948</span>
+                        <span class="stat-label">Unique Combinations</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Rarity Tiers</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-content">
+            <div class="military-loading-symbol">
+                <div class="loading-mech"></div>
+            </div>
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Initializing Division...</div>
+            <div class="loading-subtitle">Bonkdam Shōtaigun Loading</div>
+        </div>
+    </div>
+
+    <!-- Wallet Modal -->
+    <div class="wallet-modal" id="wallet-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeWalletModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <h3>Connect Wallet</h3>
+                <p>Choose your preferred wallet to connect</p>
+                <div class="wallet-options">
+                    <div class="wallet-option" onclick="connectWallet('phantom')">
+                        <img src="https://phantom.app/img/phantom-logo.svg" alt="Phantom">
+                        <span>Phantom</span>
+                    </div>
+                    <div class="wallet-option" onclick="connectWallet('solflare')">
+                        <img src="https://solflare.com/assets/logo.svg" alt="Solflare">
+                        <span>Solflare</span>
+                    </div>
+                    <div class="wallet-option" onclick="connectWallet('backpack')">
+                        <img src="https://backpack.app/assets/logo.svg" alt="Backpack">
+                        <span>Backpack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

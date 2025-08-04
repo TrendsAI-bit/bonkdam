@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0002",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Ultra Rare",
+  "image": "https://your-domain.com/images/2.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Ultra Rare"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Command Core"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Alpha Commander"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "Bonk Crest"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Furious"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Meme Drive Core"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Jetpack"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bonk Battlefield"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/2.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

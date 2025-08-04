@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0532",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Common",
+  "image": "https://your-domain.com/images/532.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "RX"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Cyber Ronin"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "MemeSigil"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Furious"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Dual Missiles"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Antenna"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Upload Core"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/532.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

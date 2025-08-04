@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0393",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Uncommon",
+  "image": "https://your-domain.com/images/393.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Open Visor"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Tactical"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "Bonk Crest"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Blank"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Energy Blade"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Banner"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Mecha Forge"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/393.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

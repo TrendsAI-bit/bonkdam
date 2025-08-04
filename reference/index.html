@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonk兄弟团 (Bonk Brotherhood Collective) - 一人一Bonk，五百结义</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Solana Web3.js -->
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+</head>
+<body>
+    <!-- Left Side Navigation -->
+    <nav class="side-nav">
+        <div class="nav-header">
+            <h2 class="nav-title">Bonk兄弟团</h2>
+            <p class="nav-subtitle">Bonk Brotherhood Collective</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active">首页</a></li>
+            <li><a href="#gallery" class="nav-link">画廊</a></li>
+            <li><a href="#collection" class="nav-link">收藏</a></li>
+            <li><a href="#about" class="nav-link">关于</a></li>
+        </ul>
+        <div class="nav-footer">
+            <div class="social-links">
+                <a href="https://x.com/Blakebonzos" target="_blank" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://x.com/i/communities/1951938520236585237" target="_blank" class="social-link"><i class="fas fa-users"></i> X Community</a>
+            </div>
+            <div class="wallet-connect">
+                <button id="wallet-connect-btn" class="wallet-btn">
+                    <i class="fas fa-wallet"></i>
+                    <span>连接钱包</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="creator-info">
+                        <i class="fas fa-crown"></i>
+                        <span>Solana NFT Collection</span>
+                        <div class="tensor-verified">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" fill="#FFD700"/>
+                            </svg>
+                            <span>Tensor Verified</span>
+                        </div>
+                    </div>
+                    
+                    <h1 class="hero-title glitch-text">Bonk兄弟团</h1>
+                    <p class="hero-subtitle">Bonk Brotherhood Collective</p>
+                    <p class="hero-motto">一人一Bonk，五百结义</p>
+                    <p class="hero-motto-en">One Bonk per man, 500 sworn brothers</p>
+                    
+                    <!-- Chinese Pixelated Elements -->
+                    <div class="chinese-elements">
+                        <div class="pixel-dragon"></div>
+                        <div class="pixel-lantern"></div>
+                        <div class="pixel-coin"></div>
+                        <div class="pixel-temple"></div>
+                    </div>
+                    
+                    <div class="collection-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500</span>
+                            <span class="stat-label">Total NFTs</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Base Images</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Backgrounds</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="https://launchmynft.io/sol/18514" target="_blank" class="cta-button primary">铸造 NFT</a>
+                        <a href="https://www.tensor.trade/trade/bonk_brotherhood_collectives" target="_blank" class="cta-button secondary">交易市场</a>
+                        <button class="cta-button secondary" onclick="scrollToSection('gallery')">浏览画廊</button>
+                    </div>
+                </div>
+                
+                <div class="hero-right">
+                    <div class="featured-nft">
+                        <div class="featured-image">
+                            <img src="generated/images/1.png" alt="Featured NFT" id="featured-nft-img">
+                            <div class="nft-overlay">
+                                <div class="nft-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">Rarity</span>
+                                        <span class="stat-value">Legendary</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Traits</span>
+                                        <span class="stat-value">4/4</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Background NFTs -->
+            <div class="background-nfts">
+                <div class="bg-nft" style="background-image: url('generated/images/50.png')"></div>
+                <div class="bg-nft" style="background-image: url('generated/images/150.png')"></div>
+                <div class="bg-nft" style="background-image: url('generated/images/250.png')"></div>
+                <div class="bg-nft" style="background-image: url('generated/images/350.png')"></div>
+                <div class="bg-nft" style="background-image: url('generated/images/450.png')"></div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="section-header">
+                <h2 class="section-title">NFT 画廊</h2>
+                <p class="section-description">探索我们独特的 Bonk 兄弟收藏</p>
+            </div>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="rare">稀有</button>
+                <button class="filter-btn" data-filter="legendary">传奇</button>
+                <button class="filter-btn" data-filter="common">普通</button>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-scroll">
+                    <div class="gallery-grid" id="gallery-grid">
+                        <!-- Gallery items will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection Section -->
+        <section id="collection" class="collection-section">
+            <div class="section-header">
+                <h2 class="section-title">收藏详情</h2>
+                <p class="section-description">深入了解我们的 NFT 收藏</p>
+            </div>
+            
+            <div class="collection-stats-grid">
+                <!-- Chinese Pixelated Header -->
+                <div class="chinese-header">
+                    <div class="pixel-border"></div>
+                    <h2 class="pixel-title">收藏特色</h2>
+                    <div class="pixel-border"></div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>背景颜色</h3>
+                        <p>8种独特的背景颜色，从经典蓝色到炫酷紫色</p>
+                        <div class="stat-breakdown">
+                            <span>蓝色 14%</span>
+                            <span>红色 14.4%</span>
+                            <span>绿色 13.6%</span>
+                            <span>橙色 13%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>特效</h3>
+                        <p>5种不同的视觉效果，增加每件作品的独特性</p>
+                        <div class="stat-breakdown">
+                            <span>对比度 22%</span>
+                            <span>无特效 20.6%</span>
+                            <span>模糊 19.6%</span>
+                            <span>饱和度 19%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-border-style"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>边框样式</h3>
+                        <p>4种边框选项，从无边框到粗边框</p>
+                        <div class="stat-breakdown">
+                            <span>中等 25.8%</span>
+                            <span>无边框 25.2%</span>
+                            <span>细边框 25%</span>
+                            <span>粗边框 24%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>基础图像</h3>
+                        <p>5个独特的 Bonk 兄弟基础图像</p>
+                        <div class="stat-breakdown">
+                            <span>图像1 22.2%</span>
+                            <span>图像5 21%</span>
+                            <span>图像3 19.8%</span>
+                            <span>图像4 19.6%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>关于 Bonk兄弟团</h2>
+                    <p>Bonk兄弟团是一个独特的 NFT 收藏，由 500 个独特的 Bonk 兄弟组成。每个 NFT 都是通过组合不同的特征和效果生成的，确保每个作品都是独一无二的。</p>
+                    <p>我们的收藏体现了"一人一Bonk，五百结义"的精神，每个 NFT 都代表着兄弟情谊和社区团结。</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>独特生成</h3>
+                            <p>每个 NFT 都是算法生成的，确保独特性</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-gem"></i>
+                            <h3>稀有系统</h3>
+                            <p>基于特征组合的稀有度系统</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h3>社区驱动</h3>
+                            <p>由 Bonk 社区支持和推广</p>
+                        </div>
+                    </div>
+                    
+                    <div class="official-links">
+                        <h3>官方链接</h3>
+                        <div class="link-grid">
+                            <a href="https://launchmynft.io/sol/18514" target="_blank" class="official-link">
+                                <i class="fas fa-mint"></i>
+                                <span>铸造 NFT</span>
+                            </a>
+                            <a href="https://www.tensor.trade/trade/bonk_brotherhood_collectives" target="_blank" class="official-link">
+                                <i class="fas fa-store"></i>
+                                <span>交易市场</span>
+                            </a>
+                            <a href="https://x.com/Blakebonzos" target="_blank" class="official-link">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://x.com/i/communities/1951938520236585237" target="_blank" class="official-link">
+                                <i class="fas fa-users"></i>
+                                <span>X Community</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">500</span>
+                        <span class="stat-label">Total Supply</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">160</span>
+                        <span class="stat-label">Unique Combinations</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Trait Categories</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Loading Overlay -->
+    <div class="loading" id="loading">
+        <div class="loading-content">
+            <div class="chinese-loading-symbol">福</div>
+            <div class="loading-spinner"></div>
+            <p class="loading-text">正在加载 Bonk兄弟团 NFT 收藏...</p>
+            <p class="loading-subtitle">Loading Bonk Brothers NFT Collection...</p>
+        </div>
+    </div>
+
+    <!-- Wallet Modal -->
+    <div class="wallet-modal" id="wallet-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="wallet-close">&times;</button>
+            <div class="modal-body">
+                <h3>连接钱包</h3>
+                <p>连接您的钱包以验证 Bonk 代币持有量</p>
+                
+                <div class="wallet-options">
+                    <button class="wallet-option" data-wallet="phantom">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDkuNzRMMTIgMTZMMTAuOTEgOS43NEw0IDlMMTAuOTEgOC4yNkwxMiAyWiIgZmlsbD0iIzQ5Q0ZGRiIvPgo8L3N2Zz4K" alt="Phantom">
+                        <span>Phantom</span>
+                    </button>
+                    <button class="wallet-option" data-wallet="solflare">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDkuNzRMMTIgMTZMMTAuOTEgOS43NEw0IDlMMTAuOTEgOC4yNkwxMiAyWiIgZmlsbD0iI0ZGRDcwMCIvPgo8L3N2Zz4K" alt="Solflare">
+                        <span>Solflare</span>
+                    </button>
+                    <button class="wallet-option" data-wallet="backpack">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDkuNzRMMTIgMTZMMTAuOTEgOS43NEw0IDlMMTAuOTEgOC4yNkwxMiAyWiIgZmlsbD0iIzAwMDAwMCIvPgo8L3N2Zz4K" alt="Backpack">
+                        <span>Backpack</span>
+                    </button>
+                </div>
+                
+                <div class="token-verification" id="token-verification" style="display: none;">
+                    <h4>代币持有量验证</h4>
+                    <div class="token-balance">
+                        <span class="token-symbol">BONK</span>
+                        <span class="token-amount" id="bonk-balance">0</span>
+                    </div>
+                    <div class="verification-status">
+                        <span class="status-badge" id="verification-status">未验证</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

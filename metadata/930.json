@@ -1,0 +1,49 @@
+{
+  "name": "Bonkdam Unit-0930",
+  "description": "A unique Bonkdam NFT from the legendary collection. Rarity: Common",
+  "image": "https://your-domain.com/images/930.png",
+  "external_url": "https://your-domain.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Helmet Type",
+      "value": "Open Visor"
+    },
+    {
+      "trait_type": "Armor Style",
+      "value": "Bonkium Alloy"
+    },
+    {
+      "trait_type": "Emblem",
+      "value": "Bonk Crest"
+    },
+    {
+      "trait_type": "Facial Expression",
+      "value": "Furious"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Bonk Rifle"
+    },
+    {
+      "trait_type": "Back Accessory",
+      "value": "Katana"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Upload Core"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://your-domain.com/images/930.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
