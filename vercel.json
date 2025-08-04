@@ -16,6 +16,10 @@
     {
       "src": "images/**",
       "use": "@vercel/static"
+    },
+    {
+      "src": "asset/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -26,6 +30,10 @@
     {
       "src": "/images/(.*)",
       "dest": "/images/$1"
+    },
+    {
+      "src": "/asset/(.*)",
+      "dest": "/asset/$1"
     },
     {
       "src": "/(.*)",
